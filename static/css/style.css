@@ -1,0 +1,31 @@
+/* NEEDED FOR SCROLLSPY */
+body {
+    position: relative;
+}
+
+/* HOME IMAGE COVER */
+.home {
+    background: linear-gradient(117deg, rgba(250,89,26,0.8) 0%, rgba(179,28,205,0.8) 34%, rgba(164,135,226,0.8) 54%, rgba(19,67,184,0.8) 76%, rgba(77,4,144,0.8) 100%), url(../images/linus-mimietz-gvptKmonylk-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* FOOTER IMAGE COVER */
+footer {
+    background: linear-gradient(117deg, rgba(250,89,26,0.8) 0%, rgba(179,28,205,0.8) 34%, rgba(164,135,226,0.8) 54%, rgba(19,67,184,0.8) 76%, rgba(77,4,144,0.8) 100%), url(../images/linus-mimietz-gvptKmonylk-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* CAROUSEL CONTROL ICONS */
+.carousel-control-next-icon {
+    height: 150px;
+    width: 110px;
+}
+
+.carousel-control-prev-icon {
+    height: 150px;
+    width: 110px;
+}
+

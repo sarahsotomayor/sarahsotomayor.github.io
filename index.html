@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<!--TODO: ADJUST SCROLLSPY TO NOT COVER HEADINGS-->
+<body data-spy="scroll" data-target=".navbar" data-offset="-80">
+
+    <header style="height: 60px;">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-info bg-opacity-75" style="height: 60px;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white ms-3" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none text-white me-5" href="#sectionProjects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-decoration-none text-white me-5" href="#sectionAbout">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/sarahstmyr/" class="btn btn-lg rounded px-1 py-1 me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="rgba(255, 255, 255, 1)" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/sarahsotomayor" class="btn btn-lg rounded px-1 py-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="rgba(255, 255, 255, 1)" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--HOME/WELCOME SECTION-->
+    <section class="home vh-100">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-6 d-flex justify-content-center pt-5">
+                        <img src="static/images/profilepic.jpeg" alt="Profile Picture" 
+                            class="rounded-circle"
+                            style="width: 230px; height: 230px;">
+                </div>
+                <div class="col-6">
+                    <div class="row text-center">
+                        <h1 class="display-2 text-info mb-5">Welcome!</h1>
+                        <p class="text-white text-center fs-5 fw-bold">
+                            Providing a win-win situation is always the goal where an organization is 
+                            efficient and successful while making a positive impact in the user's experience.        
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ABOUT ME SECTION-->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row text-center scrollspy-example">
+                <h1 class="display-5 border-bottom border-info-subtle" id="sectionAbout">
+                    About Me
+                </h1>
+                <p class="text-muted">
+                    I am a full stack software developer based out of Colorado, USA and
+                    specialize in solutions involving Python/Flask, Java/Spring, and MySQL. 
+                </p>
+                <p class="text-muted">
+                    I am bilingual (Spanish and English) and slowly learning German and Japanese.
+                </p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-lg-6 mt-2">
+                    <img src="static/images/laptop.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <p class="display-6 text-muted mb-3">    
+                        I am interested in companies that value technology and 
+                        create a positive impact.
+                    </p>
+                    <p>
+                        With a Bachelor's in Healthcare Administration and a decade in healthcare 
+                        operations, I have customer service and problem-solving at the center of 
+                        any work I do. It is exciting to bring my eye for efficiency and process improvement 
+                        into programming!
+                    </p>
+                    <p class="mb-0">
+                        Life and hobbies outside of software development:
+                        <ul>
+                            <li>Nature explorer</li>
+                            <li>Book worm</li>
+                            <li>Gamer</li>
+                            <li>Painting/Drawing</li>
+                            <li>Social Media Content Creator</li>
+                            <li>Gem & Crystal enthusiast
+                                <p class="mb-0">
+                                    (I grew up near Tucson, Arizona which hosts the largest and most 
+                                prestigious gem and mineral show)
+                                </p>
+                            </li>
+                            <li>Plant lover 
+                                <p class="mb-0">
+                                    (only the fittest survive in my home... 
+                                    no high maintenance plants allowed)
+                                </p>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--PROJECT CAROUSEL SECTION-->
+    <section class="mb-5" id="sectionProjects">
+        <h1 class="display-5 text-center">Projects</h1>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative">
+                    <div class="carousel-caption d-block position-absolute top-50 start-50 translate-middle">
+                        <h1 class="display-1 fw-bolder">
+                            GamingVerse
+                        </h1>
+                    </div>
+                    <img src="static/images/ribbon-light-space.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-block position-absolute top-50 start-50 translate-middle">
+                        <h1 class="display-1 fw-bolder">
+                            White Oasis
+                        </h1>
+                    </div>
+                    <img src="static/images/ribbon-light-space.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption d-block position-absolute top-50 start-50 translate-middle">
+                        <h1 class="display-1 fw-bolder">
+                            Portfolio
+                        </h1>
+                    </div>
+                    <img src="static/images/ribbon-light-space.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!--TECH STACKS-->
+    <section>
+        <div class="container-fluid">
+            <h1 class="display-5 border-bottom pb-3 border-info text-center">
+                Tech Stacks
+            </h1>
+            <div class="row mt-5 text-center">
+                <div class="col-3">
+                    <img src="static/images/java.png" alt="Java Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        Java
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/springboot.png" alt="Spring Boot Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        Spring Boot
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/python.png" alt="Python Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        Python
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/flask.png" alt="Flask Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        Flask
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/mysql.png" alt="MySQL Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        MySQL
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/html-5.png" alt="HTML Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        HTML5
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/bootstrap.png" alt="Bootstrap Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        Bootstrap5
+                    </h5>
+                </div>
+                <div class="col-3">
+                    <img src="static/images/css-3.png" alt="CSS Logo" width="56" height="56" class="mb-3">
+                    <h5 class="font-monospace mb-3">
+                        CSS
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer bg-dark">
+        <div class="container pt-3">
+            <div class="text-center mt-5">
+                <small class="text-white">
+                    Copyright 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                    class="bi bi-c-circle" viewBox="0 0 16 16">
+                    <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+                    </svg>
+                    2023 Sarah Sotomayor
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
