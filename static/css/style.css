@@ -32,7 +32,7 @@ footer {
 
 /* CAROUSEL IMAGE COVER */
 .carousel-item {
-    background: url(../images/ribbon-light-space.jpg);
+    background-image: url(../images/ribbon-light-space.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
