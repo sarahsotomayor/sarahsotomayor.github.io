@@ -2,7 +2,7 @@
 
 ## A Frontend Design
 
-![Preview](/static/images/preview.png?raw=true "Webpage Preview Image")
+![Preview](/static/images/Portfolio-Screenshot.png "Webpage Preview Image")
 
 ### Licensing
 
