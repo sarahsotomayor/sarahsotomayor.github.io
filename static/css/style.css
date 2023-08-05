@@ -22,6 +22,7 @@ footer {
 .carousel-control-next-icon {
     height: 150px;
     width: 110px;
+    color: black;
 }
 
 .carousel-control-prev-icon {
@@ -29,3 +30,9 @@ footer {
     width: 110px;
 }
 
+/* CAROUSEL IMAGE COVER */
+.carousel-item {
+    background: url(../images/ribbon-light-space.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

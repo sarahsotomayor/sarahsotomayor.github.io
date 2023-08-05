@@ -23,24 +23,27 @@ All rights are reserved and it is not Open Source or Free. You cannot modify or 
 * Wireframe finished using Lucidchart
 * Created a basic Python/Flask portfolio project with separate templates for about.html, projects.html, and contact.html
 
-**v 1.0.1 | 2 July 2023 | commit**
+**v 1.0.1 | 2 July 2023**
 * New repo created & project converted into a frontend design hosted on [GitHub Pages](https://pages.github.com)
 * Worked on index.html
 
-**v 1.0.2 | 3 July 2023 | commit**
+**v 1.0.2 | 3 July 2023**
 * Added links to navbar and anchors to sections for scrollspy 
 * Icons added to tech section and footer
 * Using default bootstrap colors - will be adding sass to customize after all templates are complete
 
-**v 1.0.3 | 3 July 2023 | commit**
+**v 1.0.3 | 3 July 2023**
 * Added cover image and gradient to style.css file
 
-**v 1.0.3 | 3 July 2023 | commit**
+**v 1.0.3 | 3 July 2023**
 * Added project carousel to index.html
 
-**v 1.0.4 | 4 July 2023 | commit**
+**v 1.0.4 | 4 July 2023**
 * Removed card component in view_project.html and added accordion component instead
 * Added project images and information
+
+**v 1.0.5 | 5 Aug 2023**
+* Updated carousel component with project images and descriptions
 
 
 
